@@ -1,0 +1,201 @@
+/* Стилове за устройства с ширина над 768px */
+@media (min-width: 768px) {
+    /* Настройки за навигацията */
+    nav ul {
+    display: flex;
+    justify-content: center;
+    }
+    /* Други стилове за по-големи екрани */
+    }
+    /* Стилове за устройства с ширина под 768px */
+    @media (max-width: 767px) {
+    /* Навигацията става вертикална */
+    nav ul {
+    display: block;
+    }
+    /* Текстът се центрира */
+    body {
+    text-align: center;
+    }
+        
+    
+}
+img { max-width: 100%; height: auto; }
+
+.emoji-list
+ {
+ list-style:none;
+ padding-left: 10px;
+ 
+}
+.emoji-list li
+{
+
+ position:relative;
+ padding-left: 20px;
+
+}
+
+.emoji-list li::before
+{
+
+ position:absolute;
+ content:"👉";
+ left: -10px;
+
+}
+
+
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    }
+    nav li {
+    margin: 0 15px;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 20px; }
+
+        a {
+            color: #000;
+            transition: color 0.3s ease;
+            }
+            a:hover {
+            color: #3498db;
+            }
+            @keyframes fadeIn {
+                from {
+                opacity: 0;
+                } to {
+                opacity: 1;
+                }
+                }
+                .fade-in {
+                animation: fadeIn 2s ease-in;
+                }
+                body {
+                    font-family: var(--font-family);
+                    color: var(--primary-color);
+                    }
+                    a {
+                    color: var(--secondary-color);
+                    }
+
+
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                    }
+                    
+                    body {
+                        font-family: Arial, sans-serif;
+                        line-height: 1.6;
+                        padding: 20px;
+                        background-color: #f4f4f4;
+                        color: #333;
+                    }
+                    
+                    header {
+                        background-color: #333;
+                        color: #fff;
+                        padding: 10px 0;
+                        text-align: center;
+                    }
+                    
+                    h1 {
+                        font-size: 2.5em;
+                        margin-bottom: 20px;
+                    }
+                    
+                    nav ul {
+                        list-style: none;
+                        display: flex;
+                        justify-content: center;
+                        background-color: #444;
+                        padding: 10px;
+                    }
+                    
+                    nav ul li {
+                        margin: 0 15px;
+                    }
+                    
+                    nav ul li a {
+                        color: #fff;
+                        text-decoration: none;
+                        font-weight: bold;
+                    }
+                    
+                    nav ul li a:hover {
+                        color: #f4f4f4;
+                        text-decoration: underline;
+                    }
+                    
+                    section {
+                        margin-bottom: 40px;
+                        padding: 20px;
+                        background-color: #fff;
+                        border-radius: 10px;
+                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    }
+                    
+                    h2 {
+                        font-size: 2em;
+                        margin-bottom: 15px;
+                    }
+                    
+                    p {
+                        font-size: 1.2em;
+                        margin-bottom: 10px;
+                    }
+                    
+                    strong {
+                        color: #000;
+                    }
+                    
+                    picture {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-around;
+                    }
+                    
+                    picture img {
+                        max-width: 45%;
+                        margin: 10px;
+                        border-radius: 10px;
+                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    }
+                    form {
+                        display: flex;
+                        flex-direction: column;
+                        max-width: 500px;
+                        margin: auto;
+                      }
+                      label, input, textarea, button {
+                        margin: 10px 0;
+                      }
+                      form input
+                       {
+                      padding: 10px;
+                      }
+                      button {
+                        background-color: #060606;
+                        color: white;
+                        padding: 10px;
+                        border: none;
+                        cursor: pointer;
+                        transition: transform 0.2s;
+
+                      }
+                      
+                      button:hover {
+                        transform: scale(1.1);
+                      }
+                                            
+                    
+                    
